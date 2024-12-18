@@ -1,0 +1,24 @@
+{
+  "name": "node-msw-boilerplate",
+  "version": "1.0.0",
+  "description": "Nodejs boilerplate with msw and graphql implementation",
+  "main": "index.js",
+  "repository": "https://github.com/vadnagarwalamurtaza/react-node-msw-boilerplate/server",
+  "author": "Murtaza Vadnagarwala <vadnagarwalamurtaza@gmail.com>",
+  "license": "MIT",
+  "private": null,
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "graphql": "^16.9.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
